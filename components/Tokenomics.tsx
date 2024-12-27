@@ -42,7 +42,7 @@ const Tokenomics: React.FC<{}> = () =>
           className="tracking-[0.2em] md:tracking-[0.5em] text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
           variants={fadeInUp}
         >
-          The foundation of a decentralized future.
+          THE FOUNDATION OF A DECENTRALIZED FUTURE
         </motion.p>
       </motion.div>
 

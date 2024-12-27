@@ -16,7 +16,7 @@ const fadeInUp = {
 
 const Roadmap: React.FC<{}> = () =>
 {
-  const progressToDragonSwap = 0;
+  const raydium = 0;
 
   return (
     <motion.section
@@ -45,9 +45,26 @@ const Roadmap: React.FC<{}> = () =>
         className="tracking-[0.2em] md:tracking-[0.5em] text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
         variants={fadeInUp}
       >
-        Progress
+        PROGRESS
       </motion.p>
 
+      <motion.div
+        className="mt-10 text-center text-white space-y-4"
+        variants={fadeInUp}
+      >
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          Fair launch on Pump Fun
+        </motion.p>
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          Seed on Raydium
+        </motion.p>
+      </motion.div>
       {/* Progress Bar Container */}
       <motion.div
         className="w-full max-w-3xl"
@@ -59,7 +76,7 @@ const Roadmap: React.FC<{}> = () =>
           variants={fadeInUp}
         >
           <span className="font-bold">Goal: seed on raydium</span>
-          <span className="text-blue-400">{progressToDragonSwap.toFixed(2)}%</span>
+          <span className="text-blue-400">{raydium.toFixed(2)}%</span>
         </motion.div>
 
         {/* Progress Bar */}
@@ -69,11 +86,29 @@ const Roadmap: React.FC<{}> = () =>
         >
           <motion.div
             className="bg-gradient-to-r from-purple-500 to-blue-400 h-4 rounded-full"
-            style={{ width: `${progressToDragonSwap}%` }}
+            style={{ width: `${raydium}%` }}
             transition={{ duration: 1 }}
           />
 
         </motion.div>
+      </motion.div>
+
+      <motion.div
+        className="mt-10 text-center text-white space-y-4"
+        variants={fadeInUp}
+      >
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          Apply for exchange listings
+        </motion.p>
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          Begin the Great Journey
+        </motion.p>
       </motion.div>
     </motion.section>
   );

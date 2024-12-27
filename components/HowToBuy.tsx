@@ -59,30 +59,38 @@ const HowToBuyCrypto: React.FC<{}> = () =>
             className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
             variants={fadeInUp}
           >
-            <span className="text-blue-400 font-bold">1.</span>‎ Buy ‎<strong className="text-white">$SEI</strong>‎ on Coinbase or any other supported exchange.
+            <span className="text-blue-400 font-bold">1.</span>
+            ‎ Download Solfare or Phantom Wallet
           </motion.p>
           <motion.p
             className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
             variants={fadeInUp}
           >
-            <span className="text-purple-400 font-bold">2.</span>‎ Transfer your purchased ‎<strong className="text-white">$SEI</strong>‎ tokens to your Compass Wallet.
+            <span className="text-purple-400 font-bold">2.</span>
+            ‎ Buy ‎<strong className="text-white">$SOL</strong>‎ from a centralized exchange or your wallet.
           </motion.p>
           <motion.p
             className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
             variants={fadeInUp}
           >
-            <span className="text-blue-400 font-bold">3.</span>‎ Link your Compass Wallet to the ‎<a
-              href="https://seipex.fi/0xcFf4CaaFc95B980E74F6f7bC0672B70084F4fc9a"
+            <span className="text-blue-400 font-bold">3.</span>‎ Jump to ‎<a
+              href="https://pump.fun/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 underline hover:text-blue-500 transition-colors"
-            >SeiPex</a>‎ website.
+            >pump.fun</a>‎ and link your wallet.
           </motion.p>
           <motion.p
             className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
             variants={fadeInUp}
           >
-            <span className="text-purple-400 font-bold">4.</span>‎ Purchase ‎<strong className="text-white">Halo</strong>‎ tokens using your Compass Wallet on SeiPex.
+
+            <span className="text-purple-400 font-bold">4.</span>‎ Search ‎<strong className="text-white">Halo</strong>‎ on ‎<a
+              href="https://pump.fun/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline hover:text-blue-500 transition-colors"
+            >pump.fun</a>.
           </motion.p>
         </motion.div>
       </div>
