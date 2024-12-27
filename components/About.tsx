@@ -47,7 +47,7 @@ const About: React.FC<{}> = () => {
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          We&apos;re excited to bring you the first ever Halo community coin, your ultimate hub for all things Halo on SEI! Whether you&apos;re here for the latest
+          We&apos;re excited to bring you the first ever Halo community coin, your ultimate hub for all things Halo on Solana! Whether you&apos;re here for the latest
           Halo news, updates on the legendary game, or just to hang out with fellow fans, you&apos;ve come to the right place.
           <br />
           <br />
@@ -60,7 +60,7 @@ const About: React.FC<{}> = () => {
           Join the conversation, gear up for the journey, and let&apos;s make history together! 💥
           <br />
           <br />
-          Spartan up, and welcome to The Halo on SEI!
+          Spartan up, and welcome to The Halo on Solana!
         </motion.p>
       </motion.div>
     </motion.section>

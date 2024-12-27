@@ -44,7 +44,7 @@ const Banner: React.FC<{}> = () =>
           className="flex flex-col gap-6 mt-4 md:mt-10 tracking-tighter text-4xl md:text-7xl font-semibold text-white max-w-[600px] animate-bounce"
           variants={fadeInUp}
         >
-          Halo on SEI
+          Halo on Solana
         </motion.div>
 
         <motion.div className="flex justify-center mt-2 md:mt-4" variants={fadeInUp}>
@@ -97,7 +97,7 @@ const Banner: React.FC<{}> = () =>
           variants={fadeInUp}
         >
           <a
-            href="https://x.com/Haloonsei"
+            href="https://x.com/HaloonSolana"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-transform duration-300 ease-in-out hover:scale-110"

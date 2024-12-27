@@ -16,7 +16,7 @@ const fadeInUp = {
 
 const Roadmap: React.FC<{}> = () =>
 {
-  const progressToDragonSwap = 0.26;
+  const progressToDragonSwap = 0;
 
   return (
     <motion.section
@@ -58,7 +58,7 @@ const Roadmap: React.FC<{}> = () =>
           className="text-white text-lg md:text-xl flex items-center gap-2 justify-between"
           variants={fadeInUp}
         >
-          <span className="font-bold">Goal: DragonSwap</span>
+          <span className="font-bold">Goal: seed on raydium</span>
           <span className="text-blue-400">{progressToDragonSwap.toFixed(2)}%</span>
         </motion.div>
 
