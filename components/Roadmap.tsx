@@ -49,7 +49,7 @@ const Roadmap: React.FC<{}> = () =>
       </motion.p>
 
       <motion.div
-        className="mt-10 text-center text-white space-y-4"
+        className="mt-5 text-center text-white space-y-4"
         variants={fadeInUp}
       >
         <motion.p

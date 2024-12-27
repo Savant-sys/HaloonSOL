@@ -50,7 +50,7 @@ const HowToBuyCrypto: React.FC<{}> = () =>
       </motion.p>
 
       {/* Content */}
-      <div className="container mx-auto max-w-screen-lg px-6 md:px-12">
+      <div className="container mx-auto max-w-screen-lg px-6 md:px-12 mt-5">
         <motion.div
           className="bg-[rgba(31,31,31,0.5)] border border-gray-700 rounded-lg p-6 md:p-8 space-y-6 shadow-lg"
           variants={staggerContainer}
