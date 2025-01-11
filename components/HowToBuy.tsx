@@ -84,13 +84,23 @@ const HowToBuyCrypto: React.FC<{}> = () =>
             className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
             variants={fadeInUp}
           >
-
             <span className="text-purple-400 font-bold">4.</span>‎ Search ‎<strong className="text-white">Halo</strong>‎ on ‎<a
               href="https://pump.fun/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 underline hover:text-blue-500 transition-colors"
             >pump.fun</a>.
+          </motion.p>
+          <motion.p
+            className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
+            variants={fadeInUp}
+          >
+            <span className="text-blue-400 font-bold">5.</span>‎ Visit ‎<a
+              href="https://pump.fun/coin/9ry2m6J48eJiJWctnyHaHEPEedHoBb7jZxgjLu19pump"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline hover:text-blue-500 transition-colors"
+            >OUR COIN</a>‎ to buy!
           </motion.p>
         </motion.div>
       </div>
