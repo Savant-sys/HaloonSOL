@@ -119,7 +119,7 @@ const Banner: React.FC<{}> = () =>
           variants={fadeInUp}
         >
           <a
-            href="https://t.me/+4lliH72PUIQzZTIx"
+            href="https://t.me/Halo_on_solana"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-transform duration-300 ease-in-out hover:scale-110"
