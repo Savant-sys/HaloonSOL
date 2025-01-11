@@ -16,7 +16,7 @@ const fadeInUp = {
 
 const Roadmap: React.FC<{}> = () =>
 {
-  const raydium = 26;
+  const raydium = 25;
 
   return (
     <motion.section

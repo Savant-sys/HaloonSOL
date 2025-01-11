@@ -64,7 +64,7 @@ const Tokenomics: React.FC<{}> = () =>
           variants={fadeInUp}
         >
           <h1>Market Cap</h1>
-          <h2 className="text-xl md:text-2xl font-bold"> $7.9K</h2>
+          <h2 className="text-xl md:text-2xl font-bold"> $7,778</h2>
         </motion.div>
         <motion.div
           className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
@@ -72,7 +72,7 @@ const Tokenomics: React.FC<{}> = () =>
         >
 
           <h1>Current Price</h1>
-          <h2 className="text-xl md:text-2xl font-bold"> $0.0₅7897</h2>
+          <h2 className="text-xl md:text-2xl font-bold">$0.0₅7755</h2>
         </motion.div>
         <motion.div
           className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
@@ -80,7 +80,7 @@ const Tokenomics: React.FC<{}> = () =>
         >
 
           <h1>Holders</h1>
-          <h2 className="text-xl md:text-2xl font-bold">31</h2>
+          <h2 className="text-xl md:text-2xl font-bold">30</h2>
         </motion.div>
       </motion.div>
 
